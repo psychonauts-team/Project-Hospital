@@ -755,3 +755,4 @@ $RECYCLE.BIN/
 # Additional files built by Visual Studio
 
 Textures/*
+!Textures/.gitkeep
