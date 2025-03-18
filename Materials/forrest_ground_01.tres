@@ -1,0 +1,21 @@
+[gd_resource type="ORMMaterial3D" load_steps=5 format=3 uid="uid://cpp3m5jnfy6ga"]
+
+[ext_resource type="Texture2D" uid="uid://dolakitl67apr" path="res://Textures/forrest_ground_01_2k/forrest_ground_01_diff_2k.png" id="1_qa1u2"]
+[ext_resource type="Texture2D" uid="uid://dtppdmh51mds1" path="res://Textures/forrest_ground_01_2k/forrest_ground_01_disp_2k.png" id="2_3yujk"]
+[ext_resource type="Texture2D" uid="uid://ba476wmejwepy" path="res://Textures/forrest_ground_01_2k/forrest_ground_01_nor_gl_2k.png" id="3_yrlgv"]
+[ext_resource type="Texture2D" uid="uid://b42236anndkrr" path="res://Textures/forrest_ground_01_2k/forrest_ground_01_arm_2k.png" id="4_ik0bt"]
+
+[resource]
+albedo_texture = ExtResource("1_qa1u2")
+orm_texture = ExtResource("4_ik0bt")
+normal_enabled = true
+normal_texture = ExtResource("3_yrlgv")
+ao_enabled = true
+heightmap_enabled = true
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_texture = ExtResource("2_3yujk")
+backlight_texture = ExtResource("2_3yujk")
+uv1_triplanar = true
+uv1_world_triplanar = true

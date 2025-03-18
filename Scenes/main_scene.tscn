@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://b8egisd4dtx4o"]
+[gd_scene load_steps=3 format=3 uid="uid://b8egisd4dtx4o"]
+
+[ext_resource type="Material" uid="uid://cpp3m5jnfy6ga" path="res://Materials/forrest_ground_01.tres" id="1_52fb6"]
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_2ia5b"]
+material = ExtResource("1_52fb6")
 size = Vector2(64, 64)
 
 [node name="MainScene" type="Node3D"]
